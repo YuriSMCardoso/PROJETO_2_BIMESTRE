@@ -1,0 +1,54 @@
+#titulo-form {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    background-color: lightgrey;
+}
+
+label {
+    font-size: 20px;
+}
+
+#matricula {
+    height: 25px;
+    width: 10%;
+    font-size: 18px;
+}
+
+.label {
+    margin-left: 5px;
+}
+
+#nome {
+    width: 30%;
+    height: 25px;
+    font-size: 18px;
+}
+
+#cargo {
+    height: 31px;
+    font-size: 18px;
+}
+
+#dataNascimento {
+    height: 31px;
+    font-size: 18px;
+}
+
+#form-cadastrar {
+    background-color: blue;
+    color:white;
+    border-color: blue;
+    height: 30px;
+    width: 150px;
+    font-size: 20px;
+    margin-left: 45%;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+#form-cadastrar:hover {
+    cursor: pointer;
+    background-color: green;
+    border-color: green;
+}

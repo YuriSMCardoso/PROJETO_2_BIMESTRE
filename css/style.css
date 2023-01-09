@@ -1,0 +1,92 @@
+body {
+    background-color: lightgrey;
+}
+
+header {
+    background-color:darkslategrey;
+    color: white;
+    font-size:30px;
+    margin-bottom:35px;
+}
+
+header p {
+    padding: 15px 5px 15px 110px;
+}
+
+.conteiner {
+    width: 90%;
+    margin: 20px auto;
+    background-color: white;
+    padding: 1%;
+    border-radius: 20px;
+    box-shadow: 10px 5px 5px black;
+}
+
+.titulo {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom:25px;
+    background-color: lightgrey;
+}
+
+table {
+    border: 1px solid black;
+    font-size: 20px;
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+#tabela-funcionarios tr:nth-child(even) {
+    background-color: lightgrey;
+}
+
+table tr th {
+    text-align: left;
+    padding-left: 12px;
+    border: 2px solid black;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+table tr td {
+    text-align: left;
+    padding-left: 8px;
+    border: 2px solid black;
+}
+
+.coluna-matricula {
+    width: 10%;
+}
+
+.coluna-nome {
+    width: 45%;
+}
+
+.coluna-cargo {
+    width: 22%;
+}
+
+#titulo-aniversariantes {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    background-color: lightgrey;;
+}
+
+#botaoAtualizarListaAniversariantes {
+    background: none;
+    border: none;
+    position: absolute;
+    margin-top: 4px;
+    margin-left: 20px;
+}
+
+#botaoAtualizarListaAniversariantes:hover{
+    cursor: pointer;
+}
+
+#lista-aniversariantes {
+    list-style-type: square;
+    margin-left: 3%;
+    font-size: 20px;
+}
