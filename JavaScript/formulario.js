@@ -18,6 +18,7 @@ botaoCadastrar.addEventListener("click", function(event) {
 
             mapFuncionarios.set(funcionario.matricula, funcionario);
             tabela.appendChild(criarTr(funcionario));
+            console.log(mapFuncionarios);
     
             formulario.reset();
 
